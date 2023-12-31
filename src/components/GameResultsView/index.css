@@ -1,0 +1,102 @@
+.play-again-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 28px;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 600;
+  color: #223a5f;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .game-container {
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+  }
+}
+
+.game-button {
+  height: 150px;
+  width: 150px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .game-button {
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    margin-right: 20px;
+  }
+}
+
+.game-image {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .game-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .result-container {
+    width: 30%;
+  }
+}
+
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media screen and (max-width: 576px) {
+  .text {
+    font-size: 14px;
+  }
+}
+
+.result-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .result-text {
+    font-size: 16px;
+  }
+}
